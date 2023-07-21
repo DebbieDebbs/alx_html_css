@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 900;
+}
+html{
+    font-size: 100%;
+}
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    border: 1px solid #999;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+article {
+    padding: 1rem;
+    flex: 2;
+    border: 1px solid#666;
+}
+aside {
+    padding: 1rem;
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #999;
+}
+ header {
+    font-size: 2.4rem;
+    margin: 0 1rem;
+    border: 1px solid #999;
+    padding: 1rem;
+}
+footer {
+    padding: 1rem;
+    border: 1px solid #666;
+    margin: 0 1rem;
+}
